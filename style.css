@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+   width: 100%;
+   height: 100%;
+}
+ 
+#main{
+     
+    width: 100%;
+}
+#home{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 130vh;
+}
+#nav{
+    padding: 20px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    
+}
+#nav a{
+    text-decoration: none;
+    color: rgb(189, 7, 7);
+     font-size: 18px;
+     font-weight: 700;
+     text-transform: uppercase;
+}
+#nav .border{
+    border: 3px solid rgb(189, 7, 7) ;
+    padding: 1px 18px; 
+    font-size:20px ;
+
+}
+
+#for{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#for i{
+    font-size: 13px;
+    margin-top: -3px;
+    color:  rgb(189, 7, 7);
+}
+ #home h1{  
+     padding: 40px 270px;
+    font-weight: 900;
+    font-size: 300px;
+    color:  rgb(189, 7, 7);
+    font-family: "posey textured";
+ }
+ #home img{
+    position: absolute;
+    z-index: 1;
+    width: 650px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-52%,-38%);
+}
+#home #one{
+    position: absolute;
+    width: 350px;
+    top: 45%;
+    left: 1%;
+    transform: translate(-50%,-50%);
+}
+
+#home #two{
+    position: absolute;
+    width: 350px;
+    top: 45%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+}
+#home #toto{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#toto h3{
+    font-weight: 300;
+    font-size:25px;
+}
+
+#toto p{
+    margin-top: 20px;
+    line-height: 2;
+    width: 95%;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color:  rgb(189, 7, 7);
+    z-index: 99999999;
+}
+#maintwo{
+    height: 40vh;
+    width: 100%;
+}
+
+#slanted{
+    width: 100%;
+    height: 100vh;
+}
+
+#slanter{
+    position: relative;
+    padding-top: 30vh;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(189, 7, 7);
+    clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%);}
+
+#rotated h1{
+    line-height:1;
+    font-size: 88px;
+    font-weight: 600;
+    font-family: "posey textured";
+}
+
+#rotated{
+    position: absolute;
+    z-index: 99;
+    transform: rotate(-90deg);
+    left: 10%;
+    top: 150%;
+}
+#slanter #text{
+    position: absolute;
+    top: 200px;
+    right: 10%;
+    width: 30%;
+}
+#text p{
+    font-weight: 500;
+    margin-top: 30px;
+    color: #fff;
+    line-height: 1.7;
+}
+#footer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(189, 7, 7);
+}
+#footer img{
+    mix-blend-mode: darken;
+    width: 100%;
+}
+#footer h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    position: absolute;
+    color: #fff;
+    font-size: 160px;
+    font-weight: 100;
+    font-family: "posey textured";
+}
